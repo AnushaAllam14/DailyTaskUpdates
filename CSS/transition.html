@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cd{
+            height: 100px;
+            width: 150px;
+            background-color: aquamarine;
+            transition-duration: 20s;
+            /* transition-delay: 2s; */
+            transition-timing-function:ease-in;
+
+        }
+        #trns:checked~.cd{
+            width: 100px;
+            transform: translate(30px,50px);
+            border-radius: 70%;
+            transform: rotateZ(360deg);
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <input type="radio" id="trns">translate
+    <div class="cd"></div>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border: 2px solid black;
+            height: 50vh;
+            width: 60vw;
+        }
+        .box{
+            border: 2px solid brown;
+            height: 20vh;
+            width: 30vh;
+            margin: 3vh;
+        }
+        #translate:active~.parent .a{
+         transform: translate(120px);
+    }
+    </style>
+</head>
+<body>
+    <button id="a">translate</button>
+    
+    <input id="b" type="button" value="skew">
+    <input id="c" type="button" value="scale">
+    <input id="d" type="button" value="rotate">
+    <div class="parent">
+        <div class="box"></div>
+
+      
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* @keyframes sample {
+            from{
+                background-color: chartreuse;
+                height: 200px;
+                width: 240px;
+            
+                border-radius: 30%;
+                transform: translate(100px,100px) rotate(360deg) scale(1,1); 
+                opacity: .1;
+                background-image: linear-gradient(red,orange,yellow,white);
+                transform: rotate(360deg);
+                
+
+            }
+            to{
+                height: 60px;
+                width: 40px;
+                background-color: cornflowerblue;
+                border-radius: 50%;
+                transform: translate(140px.140px) rotate(360deg) scale(4,4);
+                opacity: 4;
+                background-image:linear-gradient( pink,hotpink,purple,white);
+            }
+            
+        }
+        .cd{
+            background-color: blueviolet;
+            height: 50px;
+            width: 60px;
+            animation-name:sample;
+            animation-duration: 2s;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+
+        } */
+
+      @keyframes anusha {
+        10% {
+          background-color: darkmagenta;
+          transform: translate(1000px, 1000px) rotate(360deg);
+        }
+        30% {
+          background-color: crimson;
+          transform: skew(45deg) rotate(360deg);
+          background-image: radial-gradient(
+            rgb(126, 27, 44),
+            hotpink,
+            purple,
+            white
+          );
+        }
+        60% {
+          background-color: gold;
+          transform: rotate(360deg) translate(100px, 100px);
+          background-image: radial-gradient(
+            yellow,
+            orange,
+            red,
+            rgb(203, 89, 89),
+            white
+          );
+        }
+      }
+      .cd {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        background-color: hotpink;
+        animation-name: anusha;
+        animation-duration: 0.2s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cd"></div>
+  </body>
+</html>

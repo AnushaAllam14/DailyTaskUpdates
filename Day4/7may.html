@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend><strong>Application form</strong></legend><br>
+
+
+        <label for="fname">Enter first name:</label>
+        
+        <input type="text"  id="fname" required name="firstname">
+        <br></br>
+        <label for="email">Enter Email:</label>
+        <input name="email" type="email" id="email" placeholder="eg:xxx@gmail.com"><br></br> 
+        <label for="password">Enter your password:</label>
+        <input type="password" id="pswd" name="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"><br></br>
+    
+        
+        <p><strong>
+            Enter gender:
+        </p></strong>
+        <input type="radio" name="gender" id="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others">
+        <label for="others">Others</label><br></br>
+        
+
+<p><strong>Enter your intrests:</strong></p>
+        <input type="checkbox" id="hobbie" name="hobbie" value="Dance">
+        <label for="">Dance</label><br>
+        <input type="checkbox" id="hobbie" name="hobbie", value="Singing">
+        <label for="">Singing</label><br>
+        <input type="checkbox" id="hobbie" name="hobbie", value="Music">
+        <label for="">Music</label><br>
+        <input type="checkbox" id="hobbie" name="hobbie">
+        <label for="">Sports</label><br></br>
+
+        <input type="datetime-local"><br>
+        <input type="week"><br></br>
+        <input type="file" multiple><br>
+        <br></br><input type="submit" value="signup">
+        <input type="reset">
+
+</fieldset>
+
+    </form>
+    
+</body>
+</html>
