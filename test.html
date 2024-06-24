@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+
+    <style>
+        .Bl1 {
+            width: 100%;
+        }
+
+        .Bl1 img {
+            height: 80vh;
+            width: 100%;
+
+
+        }
+
+        .Bl1:hover {
+            opacity: 90%;
+        }
+
+        .he {
+            display: flex;
+            justify-content: center;
+            margin-top: -25%;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+
+        .pre1 {
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .pre2 {
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+
+        .Button {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .Bl2 {
+            position: absolute;
+            margin-top: 30%;
+            /* height:15vh; */
+            width: 100%;
+
+        }
+
+        .a {
+
+            color: lightskyblue;
+
+        }
+
+        .b {
+            color: black;
+            justify-content: center;
+            margin-left: 30%;
+        }
+
+        .b1 {
+            justify-content: center;
+            margin-left: 34%;
+        }
+
+        .b2 {
+            justify-content: center;
+            margin-left: 39%;
+        }
+
+        .Bl3 {
+            height: 80vh;
+            width: 100%;
+        }
+
+        .Bl3 img {
+
+            height: 30vh;
+            width: 40vh;
+        }
+
+        .Bl3 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            width: 100%;
+            height: 100%;
+            margin-top: 10%;
+        }
+
+        .Bl3 img {
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .Bl3 h1 {
+            color: rgb(111, 185, 231);
+            padding-left: 18%;
+            padding-top: 18%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .Bl3 p {
+            justify-content: center;
+            padding-left: 18%;
+            color: rgb(111, 185, 231);
+        }
+
+        .Bl3 button {
+            border-radius: 16%;
+            color: rgb(111, 185, 231);
+            border: 1px solid rgb(111, 185, 231);
+            height: 6vh;
+            width: 20vh;
+            margin-left: 18%;
+        }
+
+        .Bl3 button:hover {
+            background-color: rgb(59, 152, 209);
+            color: white;
+        }
+
+        .Bl3 img:hover {
+            opacity: 70%;
+        }
+
+
+        .Bl4 {
+            border: 2px solid black;
+            width: 100%;
+
+        }
+
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 3%;
+            height: 60vh;
+            background-color: rgb(147, 180, 229);
+            margin-bottom: 5%;
+
+        }
+
+        .flexbox div {
+            padding: 20px;
+            border: 1px solid whitesmoke;
+            align-items: center;
+            align-content: space-evenly;
+            margin: 10px;
+            background-color: rgb(160, 191, 236);
+        }
+
+        .flexbox i {
+            padding-left: 28%;
+            padding-bottom: 10%;
+        }
+
+        .flexbox p {
+            padding-left: 10%;
+        }
+
+        .flexbox h3 {
+            padding-left: 6%;
+        }
+
+        .Bl4 h1 {
+            text-align: center;
+            margin-top: 4%;
+        }
+
+        .Bl4 p {
+            text-align: center;
+        }
+
+        .Bl4 {
+            background-color: rgb(147, 180, 229);
+        }
+
+        .flexbox .fl1:hover {
+            transform: scale(1.1, 1.1);
+
+        }
+
+        .flexbox .fl2:hover {
+            transform: scale(1.1, 1.1);
+
+        }
+
+        .flexbox .fl3:hover {
+            transform: scale(1.1, 1.1);
+
+        }
+
+        .flexbox .fl4:hover {
+            transform: scale(1.1, 1.1);
+
+        }
+
+        .Bl5 {
+            border: 2px solid black;
+            width: 100%;
+
+        }
+
+        .Bl5 {
+            padding: 10%;
+        }
+
+        .Bl5 h3 {
+            text-align: center;
+            margin-top: 3%;
+        }
+
+        .Bl5 p {
+            text-align: center;
+        }
+
+
+        .sub2 {
+            border-radius: 5vh;
+            padding: 1vh;
+            border: 2px solid rgb(79, 124, 196);
+            width: 30vh;
+        }
+
+        .sub1 {
+            border-radius: 10vh;
+            width: 60vh;
+            padding: 1vh;
+            border: 2px solid rgb(79, 124, 196);
+
+        }
+
+        textarea {
+            border-radius: 5vh;
+            padding: 1vh;
+            border: 2px solid rgb(79, 124, 196);
+            width: 60vh;
+            height: 20vh;
+
+        }
+
+        .Bl5 button {
+            border-radius: 10vh;
+            width: 20vh;
+            margin-left: 35vh;
+            border: 2px solid rgb(79, 124, 196);
+        }
+
+        .bl5 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 6%;
+
+        }
+
+        .add {
+            align-items: center;
+            margin-left: 7%;
+
+        }
+
+        .Bl5 {
+            padding: 2% 17%;
+        }
+
+        .add h4 span {
+            color: rgb(147, 192, 234);
+        }
+
+        .Bl5 button:active {
+            background-color: rgb(59, 152, 209);
+            color: white;
+
+        }
+
+        .icon i {
+            margin: 1%;
+        }
+
+        .icon i:active {
+            color: rgb(133, 154, 203);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Bl1">
+        <div class="img"><img src="./multimedia.html/images/ocean-bg.jpg" alt="">
+            <h2>
+                <div class="he">Big Ocean</div>
+            </h2>
+
+            <p>
+            <div class="pre1">Free Bootstrap 4.0 Simple Theme by templplatemo</div>
+            </p>
+            <p>
+            <div class="pre2"> free to use this for any purpose </p>
+            </div>
+            <div class="Button"><button>Explore</button></div>
+        </div>
+
+
+        <div class="Bl2">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1 style="color: lightblue; font-family: Arial, Helvetica, sans-serif;">Lorem ipsum dolor sit amet
+                    </h1>
+                    <p style="color: lightblue;">Praesent ultrices a ante at efficitur. Aliquam eu lacinia nunc.
+                        Phasellus lacinia feugiat accumsan</p>
+                    <p style="color: lightskyblue;">Nulla tempor vel est sit amet tincidunt. Nullam eget lectus ut felis
+                        aliquam</p>
+                    <p style="color: lightskyblue;">laoreet eget eu dui. Curabitur in imperdiet lorem.</p>
+
+                </div>
+                <div class="carousel-item">
+                    <h1 style="color: lightblue; font-family: Arial, Helvetica, sans-serif;">Lorem ipsum dolor sit amet
+                    </h1>
+                    <p style="color: lightblue;">Praesent ultrices a ante at efficitur. Aliquam eu lacinia nunc.
+                        Phasellus lacinia feugiat accumsan</p>
+                    <p style="color: lightskyblue;">Nulla tempor vel est sit amet tincidunt. Nullam eget lectus ut felis
+                        aliquam</p>
+                    <p style="color: lightskyblue;">laoreet eget eu dui. Curabitur in imperdiet lorem.</p>
+                </div>
+                <div class="carousel-item">
+                    <h1 style="color: lightblue; font-family: Arial, Helvetica, sans-serif;">Lorem ipsum dolor sit amet
+                    </h1>
+                    <p style="color: lightblue;">Praesent ultrices a ante at efficitur. Aliquam eu lacinia nunc.
+                        Phasellus lacinia feugiat accumsan</p>
+                    <p style="color: lightskyblue;">Nulla tempor vel est sit amet tincidunt. Nullam eget lectus ut felis
+                        aliquam</p>
+                    <p style="color: lightskyblue;">laoreet eget eu dui. Curabitur in imperdiet lorem.</p>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        </div>
+
+            <div>
+                <h1>About our company</h1>
+                <p>Phasellus lacinia feugiat accumsan. Nulla tempor vel est sit amet <br> tincidunt. Nullam eget lectus
+                    ut felis aliquam.</p>
+            </div>
+            <div class="flexbox">
+                <div class="fl1">
+                    <i class="fa-brands fa-cloudversify fa-4x " style="color: rgb(65, 170, 211);"></i>
+                    <h3>Vestinbulum ornare</h3>
+                    <p>Nullam eget lectus ut felis <br> aliquam laoreet eget eu dui. Curabitur in imperdiet.</p>
+
+                </div>
+                <div class="fl2">
+                    <i class="fa-solid fa-chart-line fa-4x" style="color: rgb(65, 170, 211);"></i>
+                    <h3>Vestinbulum ornare</h3>
+                    <p>Nullam eget lectus ut felis <br> aliquam laoreet eget eu dui. Curabitur in imperdiet.</p>
+                </div>
+                <div class="fl3">
+                    <i class="fa-solid fa-users fa-4x" style="color: rgb(65, 170, 211);"></i>
+                    <h3>Vestinbulum ornare</h3>
+                    <p>Nullam eget lectus ut felis <br> aliquam laoreet eget eu dui. Curabitur in imperdiet.</p>
+                </div>
+                <div class="fl4">
+                    <i class="fa-solid fa-earth-americas fa-4x" style="color: rgb(65, 170, 211);"></i>
+                    <h3>
+                        Vestinbulum ornare
+                    </h3>
+                    <p>Nullam eget lectus ut felis <br> aliquam laoreet eget eu dui. Curabitur in imperdiet.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="Bl5">
+            <h3>Keep in Touch</h3>
+            <p>Phasellus lacinia feugiat accumsan. Nulla tempor vel est sit amet <br>tincidunt. Nullam eget lectus ut
+                felis aliquam.</p>
+            <div class="bl5">
+                <div class="in1">
+                    <input class="sub2" type="text" placeholder="Name">
+                    <input class="sub2" type="email" placeholder="email"> <br><br>
+                    <input class="sub1" type="text" placeholder="Subject"><br><br>
+                    <textarea name="" id="" placeholder="message"></textarea><br><br>
+                    <button>Submit</button>
+                </div>
+
+                <div class="add">
+                    <h2>Our Address</h2>
+                    <p>120-240 aliquam augue libero, convallis in vulputate vel, sodales <br> sed purus, 10880 San
+                        Francisco, CA, USA</p>
+
+                    <h4>Email: <span>info@company.com </span></h4>
+                    <h4>Phone: <span> 010-010-0110</span></h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                        <i class="fa-brands fa-google-plus fa-2x "></i>
+                        <i class="fa-brands fa-twitter     fa-2x  "></i>
+                        <i class="fa-brands fa-linkedin-in fa-2x  "></i>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+</body>
+
+</html>
